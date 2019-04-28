@@ -1056,38 +1056,17 @@ body {
     padding: 0;
     list-style: none;
 }
-.about--options>a {
-    position: relative;
-    width: 150px;
-    height: 75px;
-    text-decoration: none;
-    color: #fff;
-    border: 10px solid #807bf9;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg");
-}
-.about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg");
-}
-.about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg");
-}
-.about--options>a:hover h3 {
-    bottom: -50px;
-}
-.about--options h3 {
-    position: absolute;
-    bottom: -38px;
-    left: 10px;
-    font-size: 16px;
-    text-transform: uppercase;
-    -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
-    transition: bottom .2s ease-in-out, left .2s ease-in-out;
-}
+#c {
+    margin: auto;
+  }
+  .pentagon {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    padding: 3px 3px 28px 3px;
+    display:inline-block;
+    font-size: 15px;
+  }
 @media (max-width: 767px) {
     .about--banner {
     height: 305px;
